@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@200&family=Source+Serif+Pro:wght@600&display=swap');
+
+body{
+    background-color: #302e2e;
+    color: #f8f8f8;
+}
+
+.header-port{
+    background-color: #302e2e;
+    border: none;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin: 0 auto;
+    height: 30%;
+}
+.mark-port{
+    background-color: #ff66c4;
+}
+.trybe-buttom{
+    font-size: 8px;
+    padding: 2px 5px 2px 5px ;
+    text-decoration: none;
+    background-color: #0fa36b;
+    border-radius: 20%;
+    color: white;
+
+}
+
+.title-port{
+    
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+.name-port{
+    
+    padding: 0px;
+    text-align: center;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-size: 56px;
+}
+.img-div{
+    padding: 15% 0px 0px 0px;
+    text-align: center;
+}
+.img-perfil{
+    max-width: 200px;
+    min-width: 80px;
+    border-radius: 100%;
+}
+.text-aboutMe{
+    padding: 0px 200px 0px 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+.buttom{
+    padding: 0px 0px 300px 0px;
+    text-align: center;
+}
+.bottom-in{
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+    color: #ff66c4;
+}
+.menu-port{
+    text-align: center;
+    height: 350px;
+    float: left;
+    width: 15%;
+    border-right: solid 2px #ff66c4;
+    
+}
+.div-msm{
+    padding:15% 0px 0px 0xp ;
+    text-align: center;
+}
+.msm-port{
+    text-decoration: none;
+    color: #ff66c4;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+}
+.proj-port, .link-port,.snake-port{
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+    color: #ff66c4;
+}
+a:hover{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+.hb-port{
+    text-align: left;
+    padding: 0px 0px 200px 16%;
+}
+.hab-port{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 46px;
+
+}
+.div-hb{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
+    text-shadow: #f8f8f8;
+}
+.div-proj-port{
+    font-size: 24px;
+    text-align: center;
+}
+.snakePNG-port{
+    width: 200px;
+    border-radius: 100%;
+    border: solid 5px #f8f8f8;
+
+}
+

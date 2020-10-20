@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Felipe França - PORTIFÓLIO</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <header class="header-port">
+            <h5 class="title-port">PORTIFÓLIO</h5>
+        <H1 class="name-port">Felipe França</H1>
+        </header>
+        <br id="home">
+        <div  class="img-div">
+            <img class='img-perfil'src="./perfil.jfif" alt="Imagem de Perfil">
+        </div>
+        <br>
+        <p class="text-aboutMe">
+            Me chamo Felipe França, nasci dia 08/nov/1999 na cidade de Maceió,
+            conheci a tecnologia aos 12 anos, em um curso de montagem e manutenção de micro em minha cidade,
+            trabalhei desde então pra conquistar o que tenho, formatando e concertando circuitos de pc's e notebook's,
+            trabalhei 2 anos com redes de telecomunicações em provedores de internet de minha cidade, até que dia <mark class="mark-port">28/set/2020</mark> fui 
+            aprovado no processo seletivo da <a href="https://betrybe.com" target="_blank" class="trybe-buttom">TRYBE</a>, onde estou cursando para me tornar um desenvolvedor web fullstack e com tudo isso
+            me tornar <strong><em>"uma pessoa em sua melhor versão."</em></strong>
+        </p>
+        <br>
+
+        <div class="buttom">
+            <a href="#menu" class="bottom-in">-MAIS SOBRE MIM?-</a>
+        </div>
+        <div class="div-msm">
+            <h5 ><a id="menu" class="msm-port" href="#home">...</a></h5>
+        </div>
+        <main>
+            <div  class="menu-port">
+                
+                <p><a href="#projetos" class='proj-port'>-PROJETOS-</a></p>
+                
+                  <p><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank" class="link-port">-LINKEDIN-</a></p>
+            </div>
+            
+            <div class="hb-port">
+                <h1 class="hab-port">Habilidades:</h1>
+                <div class="div-hb">
+                    <ul>
+                        <p>HTML: INTERMEDIÁRIO<br>
+                        CSS: BÁSICO<br>
+                        JAVASCRIPT: INTERMEDIÁRIO<br>
+                        INGLÊS: BÁSICO<br>
+                        LINUX: INTERMEDIÁRIO<br>
+                        DESIGN: BÁSICO <br>
+                        REDES: INTERMEDIÁRIO</P>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        
+        <div  class="menu-port">
+            <p><a href="#home" class='proj-port'>-HOME-</a></p>
+                
+            <p><a href="#menu" class='proj-port'>-HABILIDADES-</a></p>
+
+            
+              <p><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank" class="link-port">-LINKEDIN-</a></p>
+        </div>
+        
+        
+        <div class="hb-port">
+            <h1 id="projetos" class="hab-port">Projetos:</h1>
+            <div class="div-proj-port">
+                <img class="snakePNG-port" src="./snakeGame.png" alt="Imagem de um snakeGame">
+                <br>
+                <a href="https://github.com/devFelipeFranca/SnakeGame" target="_blank" class="snake-port">-SnakeGame-</a>
+            </div>
+        </div>
+    </main>
+       <script>
+           const scrollToIdOnClick = (event) =>{
+    event.preventDefault()
+    const tag = event.target
+    const id = tag.getAttribute('href')
+    const section = document.querySelector(id).offsetTop
+
+    window.scroll({
+        top: section -200,
+        behavior: "smooth"
+    })
+}
+const animationScroll = document.querySelectorAll('a[href^="#"]')
+animationScroll.forEach(link => {
+    link.addEventListener('click',scrollToIdOnClick)
+})
+       </script>
+    </body>
+</html>
