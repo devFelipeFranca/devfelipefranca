@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@200&family=Source+Serif+Pro:wght@600&display=swap');
-
+*{
+    margin: 0;
+}
 body{
     background-color: #302e2e;
     color: #f8f8f8;
@@ -14,7 +16,7 @@ body{
     top: 0%;
     width: 100%;
     margin: 0 auto;
-    max-height: 25%;
+    max-height: 20%;
     min-height: 10%;
 }
 .mark-port{
@@ -32,20 +34,20 @@ body{
 
 .title-port{
     
-    padding: 30px 0px 0px 0px;
+    padding: 5% 0px 0px 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
+    font-size: 60%;
 }
 .name-port{
     
     padding: 0px;
     text-align: center;
     font-family: 'Source Serif Pro', sans-serif;
-    font-size: 50px;
+    font-size: 300%;
 }
 .img-div{
-    padding: 12% 0px 0px 0px;
+    padding: 20% 0px 0px 0px;
     text-align: center;
 }
 .img-perfil{
@@ -80,7 +82,7 @@ body{
     text-align: center;
     height: 60%;
     float: left;
-    width: 25%;
+    width: 30%;
     border-right: solid 2px #ff66c4;
     
 }
@@ -118,6 +120,7 @@ a:hover{
 
 }
 .div-hb{
+    padding-left:5%;
     text-align: left;
     font-size: 80%;
     font-family: 'Source Serif Pro', serif;
