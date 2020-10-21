@@ -1,0 +1,60 @@
+@media (width:414px){
+   body{
+       background-color: #302e2e;
+       color: #f8f8f8;
+   } 
+   .header-port{
+       margin: 0 auto;
+       background-color: #302e2e;
+       border:none;
+       position:fixed;
+       top:0;
+       width: 100%;
+       max-height: 20%;
+       min-height: 10%;
+   }
+   .mark-port{
+       background-color: #ff66c4;
+   }
+   .trybe-buttom{
+       font-size: 6px;
+       padding: 2px 5px;
+       text-decoration: none;
+       background-color: #0fa36b;
+       border-radius: 20%;
+       color: white;
+   }
+   .title-port{
+       padding: 0;
+       margin: 0;
+       border: 0;
+       text-align: center;
+       font-family: 'Monteserrat', sans-serif;
+   }
+   .name-port{
+       padding: 0;
+       text-align: center;
+       font-family: 'Source Serif Pro', serif;
+       font: 30px;
+    }
+    .img-div{
+        text-align: center;
+    }
+    .img-div{
+        margin: auto;
+        margin-top: 25%;
+        max-width: 100%;
+        min-width: 50%;
+    }
+    .div-text-port{
+        margin:auto;
+        min-width: 70%;
+        max-width: 100;
+    }
+    .text-aboutMe{
+        padding: 0;
+        text-align: center;
+        font-size: 5px;
+    }
+
+}

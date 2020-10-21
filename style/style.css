@@ -50,7 +50,7 @@ body{
 }
 .img-perfil{
     max-width: 30%;
-    min-width: 10%px;
+    min-width: 10%;
     border-radius: 100%;
 }
 .div-text-port{
@@ -58,11 +58,9 @@ body{
     min-width: 40%;
     max-width: 80%;
 }
-.projetos-port{
-    background-color: #ff66c4;
-}
+
 .text-aboutMe{
-    padding: 0px 200px 0px 200px;
+    padding: 0px 5% 0px 5%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
@@ -78,10 +76,11 @@ body{
     color: #ff66c4;
 }
 .menu-port{
+
     text-align: center;
-    height: 350px;
+    height: 60%;
     float: left;
-    width: 15%;
+    width: 25%;
     border-right: solid 2px #ff66c4;
     
 }
@@ -98,7 +97,7 @@ body{
 .proj-port, .link-port,.snake-port{
     text-decoration: none;
     font-family: 'Source Serif Pro', serif;
-    font-size: 16px;
+    font-size: 80%;
     color: #ff66c4;
 }
 a:hover{
@@ -115,23 +114,25 @@ a:hover{
 }
 .hab-port{
     font-family: 'Source Serif Pro', serif;
-    font-size: 46px;
+    font-size: 200%;
 
 }
 .div-hb{
     text-align: left;
-    font-size: 16px;
+    font-size: 80%;
     font-family: 'Source Serif Pro', serif;
     text-shadow: #f8f8f8;
 }
 .div-proj-port{
-    font-size: 24px;
+    font-size: 150%;
     text-align: center;
 }
 .snakePNG-port{
-    width: 200px;
+    width: 40%;
     border-radius: 100%;
     border: solid 5px #f8f8f8;
 
 }
-
+.snake-port{
+    text-align: center;
+}
