@@ -80,7 +80,7 @@ body{
 .menu-port{
 
     text-align: center;
-    height: 60%;
+    height: 155px;
     float: left;
     width: 30%;
     border-right: solid 2px #ff66c4;
@@ -112,7 +112,7 @@ a:hover{
 }
 .pj-port{
     text-align: left;
-    padding: 0 0 50% 16%;   
+    padding: 5% 30% 50% 30%;   
 }
 .hab-port{
     font-family: 'Source Serif Pro', serif;
@@ -131,9 +131,9 @@ a:hover{
     text-align: center;
 }
 .snakePNG-port{
-    width: 40%;
+    width: 30%;
     border-radius: 100%;
-    border: solid 5px #f8f8f8;
+    border: solid 1px #ff66c4;
 
 }
 .snake-port{
