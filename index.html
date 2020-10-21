@@ -4,13 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Felipe França - PORTIFÓLIO</title>
-        <link rel="stylesheet" href="./style/app.css">
         <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
         <header class="header-port">
             <h5 class="title-port">PORTIFÓLIO</h5>
         <H1 class="name-port">Felipe França</H1>
+        <nav class="nav-port">
+
+            <div>
+                <div ><a class="hab-port" href="#home">HOME</a></div>
+                <div ><a class="hab-port" href="#projetos">PROJETOS</a></div>
+                <div ><a class="hab-port" href="#habilidade">HABILIDADES</a></div>
+              </div>
+
+        </nav>
         </header>
         <br id="home">
         <div  class="img-div">
@@ -20,65 +28,33 @@
         <div class="div-text-port">
             <p class="text-aboutMe">
                 Me chamo Felipe França, nasci dia 08/nov/1999 na cidade de Maceió,
-                conheci a tecnologia aos 12 anos, em um curso de montagem e manutenção de micro em minha cidade,
-                trabalhei desde então pra conquistar o que tenho, formatando e consertando circuitos de pc's e notebook's,
-                trabalhei 2 anos com redes de telecomunicações em provedores de internet de minha cidade, até que dia <mark class="mark-port">28/set/2020</mark> fui 
+                conheci a tecnologia aos 12 anos, trabalhei 2 anos com redes de telecomunicações em provedores de internet de minha cidade, até que dia <mark class="mark-port">28/set/2020</mark> fui 
                 aprovado no processo seletivo da <a href="https://betrybe.com" target="_blank" class="trybe-buttom">TRYBE</a>, onde estou cursando para me tornar um desenvolvedor web fullstack e com tudo isso
                 me tornar <strong><em>"uma pessoa em sua melhor versão."</em></strong>
             </p>
         </div>
-        <br>
-
-        <div class="buttom">
-            <a href="#menu" class="bottom-in">-MAIS SOBRE MIM?-</a>
-        </div>
-        <div class="div-msm">
-            <h5 ><a id="menu" class="msm-port" href="#home">...</a></h5>
-        </div>
-        <main>
-            <div  class="menu-port">
-                
-                <p><a href="#projetos" class='proj-port'>-PROJETOS-</a></p>
-                
-                  <p><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank" class="link-port">-LINKEDIN-</a></p>
-            </div>
-            
-            <div class="hb-port">
-                <h1 class="hab-port">Habilidades:</h1>
-                <div class="div-hb">
-                    <ul>
-                        <p>HTML: INTERMEDIÁRIO<br>
-                        CSS: BÁSICO<br>
-                        JAVASCRIPT: INTERMEDIÁRIO<br>
-                        INGLÊS: BÁSICO<br>
-                        LINUX: INTERMEDIÁRIO<br>
-                        DESIGN: BÁSICO <br>
-                        REDES: INTERMEDIÁRIO</P>
-                    </ul>
+        <br >
+        <main id="projetos" >
+            <section class="proj-port">
+                <div class="div-proj-port">
+                    <img class="img-proj" src="./img/snakeGame.png" alt="imagem do SnakeGame"><br>
+                    <cite>Um SnakeGame com foco em multiplayer</cite>
+                    <h3 class="div-proj-port"><a  class="div-proj-porti" href="#">SnakeGame</a></h3>
                 </div>
-            </div>
+                <div class="div-proj-port">
+                    <img src="" alt=""><br>
+                    <cite>explicação breve do projeto</cite>
+                    <h3 class="div-proj-port"><a  class="div-proj-porti" href="#">nome do projeto</a></h3>
+                </div>
+                <div class="div-proj-port">
+                    <img src="" alt=""><br>
+                    <cite>explicação breve do projeto</cite>
+                    <h3 class="div-proj-port"><a  class="div-proj-porti" href="#">nome do projeto</a></h3>
+                </div>
+            </section>
+            
         </main>
         
-        <div  class="menu-port">
-            <p><a href="#home" class='proj-port'>-HOME-</a></p>
-                
-            <p><a href="#menu" class='proj-port'>-HABILIDADES-</a></p>
-
-            
-              <p><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank" class="link-port">-LINKEDIN-</a></p>
-        </div>
-        
-        
-        <div id="projetos" class="pj-port">
-          
-            <h1  class="hab-port">Projetos:</h1>
-            <div class="div-proj-port">
-                <img class="snakePNG-port" src="./img/snakeGame.png" alt="Imagem de um snakeGame">
-                <br>
-                <a href="https://github.com/devFelipeFranca/SnakeGame" target="_blank" class="snake-port">-SnakeGame-</a>
-            </div>
-        </div>
-    </main>
        <script>
            const scrollToIdOnClick = (event) =>{
     event.preventDefault()

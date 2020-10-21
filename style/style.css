@@ -5,19 +5,17 @@
     margin: 0;
 }
 body{
-    background-color: #302e2e;
-    color: #f8f8f8;
+    background-color: #f8f8f8 ;
+    color: #302e2e ;
 }
 
 .header-port{
+    color: #f8f8f8;
     background-color: #302e2e;
-    border: none;
     position: fixed;
-    top: 0%;
     width: 100%;
-    margin: 0 auto;
-    max-height: 20%;
-    min-height: 10%;
+    margin: -1% auto;
+    
 }
 .mark-port{
     background-color: #ff66c4;
@@ -37,7 +35,7 @@ body{
     padding: 5% 0px 0px 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60%;
+    font-size: 100%;
 }
 .name-port{
     
@@ -47,7 +45,9 @@ body{
     font-size: 300%;
 }
 .img-div{
-    padding: 20% 0px 0px 0px;
+
+    margin: 3% auto;
+    padding: 15% 25% 0;
     text-align: center;
 }
 .img-perfil{
@@ -62,13 +62,13 @@ body{
 }
 
 .text-aboutMe{
-    padding: 0px 5% 0px 5%;
+    padding: 0 5% 50% 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
+    font-size: 80%;
 }
 .buttom{
-    padding: 0px 0px 50% 0px;
+    padding: 0px 0px 35% 0px;
     text-align: center;
 }
 .bottom-in{
@@ -79,15 +79,16 @@ body{
 }
 .menu-port{
 
-    text-align: center;
-    height: 155px;
-    float: left;
-    width: 30%;
-    border-right: solid 2px #ff66c4;
+   text-align: center;
+   height: 200%;
+   float: left;
+   width: 15%;
+   border-right: solid 1px #ff66c4;
+   font-size: 170%;
     
 }
 .div-msm{
-    padding:15% 0px 0px 0xp ;
+    margin: 0 auto;
     text-align: center;
 }
 .msm-port{
@@ -96,15 +97,50 @@ body{
     font-size: 46px;
     font-family: 'Montserrat', sans-serif;
 }
-.proj-port, .link-port,.snake-port{
+.img-proj{
+    width: 80%;
+    border-radius: 100%;
+}
+.div-proj-port{
+    padding: 0 2%;
+    text-align: center;
     text-decoration: none;
     font-family: 'Source Serif Pro', serif;
     font-size: 80%;
     color: #ff66c4;
 }
+.div-proj-porti{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 80%;
+    color: #ff66c4;
+}
+.div-proj-porti:hover{
+    color:#302e2e;
+    
+}
+
+.proj-port{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 80%;
+    color: #ff66c4;
+}
+.proj-port div{
+    display: inline-block;
+}
+.msm-port:hover{
+    text-decoration: none;
+    color: #f8f8f8;
+}
 a:hover{
     text-decoration: none;
     color: #f8f8f8;
+}
+.proj-port:hover{
+    color: #302e2e;
 }
 .hb-port{
     text-align: left;
@@ -115,9 +151,17 @@ a:hover{
     padding: 5% 30% 50% 30%;   
 }
 .hab-port{
+    display: inline-block;
+    text-decoration: none;
+    color:#ff66c4;
     font-family: 'Source Serif Pro', serif;
-    font-size: 200%;
-
+    font-size: 100%;
+    padding: 2%;
+    margin: 1% 30%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div-hb{
     padding-left:5%;
@@ -130,12 +174,14 @@ a:hover{
     font-size: 150%;
     text-align: center;
 }
-.snakePNG-port{
-    width: 30%;
-    border-radius: 100%;
-    border: solid 1px #ff66c4;
-
-}
-.snake-port{
+.nav-port{
+    width: 100%;
     text-align: center;
+    text-decoration: none;
+    color: #ff66c4;
+}
+.nav-port div{
+    
+    display: inline-block;
+    
 }
