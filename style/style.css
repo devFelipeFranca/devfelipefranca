@@ -13,9 +13,22 @@ body{
     color: #f8f8f8;
     background-color: #302e2e;
     position: fixed;
-    width: 100%;
-    margin: -1% auto;
-    
+    width: 100%;    
+}
+.title-port{    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+}
+.name-port{ 
+    text-align: center;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-size: 250%;
+}
+.menu-port{
+    text-decoration: none;
+    color:#ff66c4;
+    font-size: 90%;  
 }
 .mark-port{
     background-color: #ff66c4;
@@ -30,24 +43,10 @@ body{
 
 }
 
-.title-port{
-    
-    padding: 5% 0px 0px 0px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
-}
-.name-port{
-    
-    padding: 0px;
-    text-align: center;
-    font-family: 'Source Serif Pro', sans-serif;
-    font-size: 300%;
-}
-.img-div{
 
-    margin: 3% auto;
-    padding: 15% 25% 0;
+.section-1-port{
+    margin:0 auto;
+    padding:20% 0 0;
     text-align: center;
 }
 .img-perfil{
@@ -62,10 +61,11 @@ body{
 }
 
 .text-aboutMe{
-    padding: 0 5% 50% 0;
-    text-align: center;
+    padding: 5% 0 50% 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 80%;
+    font-size: 100%;
+    width:80%;
+    margin:0 auto;
 }
 .buttom{
     padding: 0px 0px 35% 0px;
@@ -77,16 +77,7 @@ body{
     font-size: 16px;
     color: #ff66c4;
 }
-.menu-port{
 
-   text-align: center;
-   height: 200%;
-   float: left;
-   width: 15%;
-   border-right: solid 1px #ff66c4;
-   font-size: 170%;
-    
-}
 .div-msm{
     margin: 0 auto;
     text-align: center;
@@ -98,7 +89,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .img-proj{
-    width: 80%;
+    width: 50%;
     border-radius: 100%;
 }
 .div-proj-port{
@@ -149,19 +140,6 @@ a:hover{
 .pj-port{
     text-align: left;
     padding: 5% 30% 50% 30%;   
-}
-.hab-port{
-    display: inline-block;
-    text-decoration: none;
-    color:#ff66c4;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 100%;
-    padding: 2%;
-    margin: 1% 30%;
-    height: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .div-hb{
     padding-left:5%;
