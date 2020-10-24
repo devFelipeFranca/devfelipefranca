@@ -30,36 +30,21 @@ body{
     color:#ff66c4;
     font-size: 90%;  
 }
-.mark-port{
-    background-color: #ff66c4;
+.nav-port{
+    width:100%;
+    text-align:center;
 }
-.trybe-buttom{
-    font-size: 8px;
-    padding: 2px 5px 2px 5px ;
-    text-decoration: none;
-    background-color: #0fa36b;
-    border-radius: 20%;
-    color: white;
-
+.nav-port div{
+    display: inline-block;    
 }
-
-
+.nav-port a:hover{
+    color: #f8f8f8;
+}
 .section-1-port{
     margin:0 auto;
-    padding:20% 0 0;
+    padding:10% 0 0;
     text-align: center;
 }
-.img-perfil{
-    max-width: 30%;
-    min-width: 10%;
-    border-radius: 100%;
-}
-.div-text-port{
-    margin: auto;
-    min-width: 40%;
-    max-width: 80%;
-}
-
 .text-aboutMe{
     padding: 5% 0 50% 0;
     font-family: 'Montserrat', sans-serif;
@@ -67,99 +52,51 @@ body{
     width:80%;
     margin:0 auto;
 }
-.buttom{
-    padding: 0px 0px 35% 0px;
-    text-align: center;
+.mark-port{
+    background-color: #ff66c4;
 }
-.bottom-in{
+.trybe-buttom{
+    font-size: 70%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
     text-decoration: none;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 16px;
-    color: #ff66c4;
+    background-color: #0fa36b;
+    border-radius: 25%;
+    color: white;
+    }
+.img-perfil{
+    max-width: 30%;
+    min-width: 10%;
+    border-radius: 50%;
 }
-
-.div-msm{
-    margin: 0 auto;
+.title-project-port{
     text-align: center;
-}
-.msm-port{
-    text-decoration: none;
-    color: #ff66c4;
-    font-size: 46px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    margin: 5% auto;
 }
-.img-proj{
-    width: 50%;
-    border-radius: 100%;
-}
-.div-proj-port{
-    padding: 0 2%;
+.section-2-port{
     text-align: center;
-    text-decoration: none;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 80%;
-    color: #ff66c4;
 }
-.div-proj-porti{
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 80%;
-    color: #ff66c4;
+.section-2-port article{
+    margin: 0 auto;
+    display: inline-block;
+    width:25%;
 }
-.div-proj-porti:hover{
-    color:#302e2e;
-    
+.project-1-port{
+    width:20%;
+    text-align:center;
+}
+.img-snakeGame-project-port-1{
+    width:80%;
+}
+.buttom-project-port{
+    text-decoration: none;
+    font: 100%;
+    color: #f8f8f8;
+    background-color: #302e2e;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
-.proj-port{
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 80%;
-    color: #ff66c4;
-}
-.proj-port div{
-    display: inline-block;
-}
-.msm-port:hover{
-    text-decoration: none;
-    color: #f8f8f8;
-}
-a:hover{
-    text-decoration: none;
-    color: #f8f8f8;
-}
-.proj-port:hover{
-    color: #302e2e;
-}
-.hb-port{
-    text-align: left;
-    padding: 0px 0px 70% 16%;
-}
-.pj-port{
-    text-align: left;
-    padding: 5% 30% 50% 30%;   
-}
-.div-hb{
-    padding-left:5%;
-    text-align: left;
-    font-size: 80%;
-    font-family: 'Source Serif Pro', serif;
-    text-shadow: #f8f8f8;
-}
-.div-proj-port{
-    font-size: 150%;
-    text-align: center;
-}
-.nav-port{
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    color: #ff66c4;
-}
-.nav-port div{
-    
-    display: inline-block;
-    
-}
+
+
