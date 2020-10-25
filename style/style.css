@@ -75,6 +75,7 @@ body{
     margin: 5% auto;
 }
 .section-2-port{
+    padding: 0 0 50%;
     text-align: center;
 }
 .section-2-port article{
@@ -97,6 +98,44 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
+.section-3-port{
 
+    padding:0 0 1%;
+    text-align: center;
+}
+.section-3-port h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    margin: 4% auto;
+}
+.section-3-port h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin: 2% auto;
+}
+.section-3-port ul{
+    padding: 0 2% 2%;
+    border-radius: 5%;
+    text-align: left;
+    color:#f8f8f8;
+    background-color: #302e2e;
+    margin: 0 auto;
+    display: inline-block;
+    width: 25%;
+}
+.end-port{
+    background-color: #302e2e;
+    width:100%;
+}
+.end-port h2{
+    color: #f8f8f8;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+.end-port li{
+    color: #ff66c4;
+    font-style: 90%;
 
-
+}
