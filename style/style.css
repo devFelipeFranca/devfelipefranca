@@ -1,19 +1,20 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@200&family=Source+Serif+Pro:wght@600&display=swap');
-*{
-    margin: 0;
-}
+
 body{
     background-color: #f8f8f8 ;
     color: #302e2e ;
 }
-
-.header-port{
+#home{
+   /* position: fixed;*/
     color: #f8f8f8;
     background-color: #302e2e;
-    position: fixed;
-    width: 100%;    
+}
+
+.header-port{
+       
 }
 .title-port{    
     text-align: center;
@@ -105,14 +106,10 @@ body{
 }
 .section-3-port h1{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 250%;
     margin: 4% auto;
 }
 .section-3-port h3{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
     margin: 2% auto;
 }
 .section-3-port ul{
@@ -126,17 +123,13 @@ body{
     width: 25%;
 }
 .end-port{
+    color:#f8f8f8;
     background-color: #302e2e;
-    width:100%;
-}
-.end-port h2{
-    color: #f8f8f8;
-    font-size: 150%;
-    font-family: 'Montserrat', sans-serif;
 }
 .end-port a{
-    text-decoration: none;
-    color: #ff66c4;
-    font-style: 90%;
-
+    color:#ff66c4;
 }
+.end-port a:hover{
+    color: #f8f8f8;
+}
+
