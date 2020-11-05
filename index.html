@@ -6,108 +6,48 @@
         <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
-        <header id="home"  class=" shadow mb-4
-        w-full
-        text-lg
-        text-center
-        p-2
-        bg-white
-        text-purple-=700
-        font-extrabold
-        fixed">
-            <h1>
-
-        PORTIFÓLIO
-            
-        </h1>
-        <nav class="nav-port">
-                <div ><a class="menu-port" href="#home">HOME</a></div>
-                <div ><a class="menu-port" href="#projetos">PROJETOS</a></div>
-                <div ><a class="menu-port" href="#habilidade">HABILIDADES</a></div>
-        </nav>
+        <header id="home">
+            <div id="menu-bar">
+                <div id="menu">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav>
+                    <ul id="nav"class="nav">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <!-- <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contado</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+            <div id="menu-bg" class="menu-bg"></div>
+            <h1>PORTIFÓLIO</h1>
         </header>
         <main  class="content">
-           <section class="
-           w-full
-           text-lg
-           text-center
-           pt-20
-           pb-20
-           mb-20
-           ">
-            <img class='rounded-full  m-auto'src="./img/perfil.jfif" alt="Imagem de Perfil">
-                <h3 class="m-0 p-4 font-extrabold text-5xl">Felipe França</h3>
-                <p class="pl-4 pr-4 pt-5">
-                    Me chamo Felipe França, nasci dia 08/nov/1999 na cidade de Maceió,
-                    conheci a tecnologia aos 12 anos, trabalhei 2 anos com redes de telecomunicações em provedores de internet de minha cidade, até que dia <mark class="mark-port">28/set/2020</mark> fui 
-                    aprovado no processo seletivo da <a href="https://betrybe.com" target="_blank" class="trybe-buttom">TRYBE</a>, onde estou cursando para me tornar um desenvolvedor web fullstack e com tudo isso
-                    me tornar <strong><em>"uma pessoa em sua melhor versão."</em></strong>
-                </p>
-           </section>
-            <section  class="w-full text-lg text-center m-auto pb-20 mb-20 ">
-                <h1  class='m-0 p-4 font-extrabold text-6xl'>PROJETOS</h1>
-                <article id="projetos" class="w-full m-auto ">
-                    <img class="m-auto " src="./img/snakeGame.png" alt="imagem do SnakeGame"><br>
-                    <cite class="text-center text-1xl "> <strong>Um SnakeGame com foco em multiplayer</strong></cite>
-                    <h3 class="hover:border-blue-500"><a  class="text-center text-2xl" target='_blank' href="./SnakeGame.html">SnakeGame</a></h3>
+                <h1 id="projetos"  class=''>PROJETOS</h1>
+                <article >
+                    <div class="post">
+                        <div class="img-post">
+                            <img src="./img/snakeGame.png" alt="SnakeGame">
+                        </div>
+                        <div class="post-info">
+                            <div class="date">
+                                <span>Quinta-Feira</span>
+                                <span>05 / Nov / 2020</span>
+                            </div>
+                            <h3 class="title-post">SnakeGame</h3>
+                            <p class="sobre-post">
+                                Game multiplayer, com encremento de velocidade e colisão entre jogadores, com decremento de velocidade ao colidir
+                            </p>
+                            <a class="buttom-post" href="./SnakeGame.html" target="_blank">Jogar</a>
+                        </div>
+                    </div>
                 </article>
-            </section>
-            <section class="section-3-port">
-                <h1 class="class='m-0 p-4 font-extrabold text-6xl text-center">HABILIDADES</h1>
-                <ul id="habilidade" class="text-sm text-left">
-                    <h3 class="text-2xl">Tecnologias</h3>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>JAVASCRIPT (ECMAScript6)</li>
-                    <li>NODE.JS</li>
-                    <li>MYSQL</li>
-                    <li>SISTEMAS UNIX</li>
-                    <li>SERVIDORES DNS</li>
-                    <li>MICROTIK</li>
-                    <li>BASH</li>
-                    <li>PYTHON (BÁSICO)</li>
-                </ul>
-                <ul class="text-sm text-left">
-                    <h3 class="text-2xl">Experiências</h3>
-                    <li>REDES DE COMPUTADORES</li>
-                    <li>CIRCUITOS ELETRÔNICOS</li>
-                    <li>LÓGICA DE PROGRAMAÇÃO</li>
-                    <li>SOFTSKILL (EM UPGRADE)</li>
-                    <li>CALL CENTER</li>
-                    <li>VAREJO E NEGÓCIOS</li>
-                    <li>GESTÃO EMPRESARIAL</li>
-                    <li>METÓDOS DE MELHORIA CONTÍNUA</li>
-                    <li>DESENVOLVIMENTO WEB</li>
-                    <li>BANCO DE DADOS</li>
-                </ul>
-            </section>
-        </main>
-        <footer class="end-port" class="shadow mb-4
-        p-2
-        text-purple-=700
-        font-extrabold">
-            <h2 class="text-2xl text-center">Contato:</h2>
-            <ul class="text-center ">
-                <li><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target='_blank'>LINKEDIN</a></li>
-                <li><a href="http://www.github.com/devFelipeFranca" target="_blank">GITHUB</a></li>
-            </ul>
-        </footer>  
-       <script>
-           const scrollToIdOnClick = (event) =>{
-    event.preventDefault()
-    const tag = event.target
-    const id = tag.getAttribute('href')
-    const section = document.querySelector(id).offsetTop
-
-    window.scroll({
-        top: section -200,
-        behavior: "smooth"
-    })
-}
-const animationScroll = document.querySelectorAll('a[href^="#"]')
-animationScroll.forEach(link => {
-    link.addEventListener('click',scrollToIdOnClick)
-})
+            
+        </main>  
+       <script src="./script/index.js">
        </script>
     </body>
 </html>
