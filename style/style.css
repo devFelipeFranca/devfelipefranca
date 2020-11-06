@@ -401,27 +401,26 @@ img {
   color: #1fe097;
 }
 .section-footer {
-  margin-top: 700px;
+  margin-top: 600px;
   width: 92.6%;
-  background: #333;
+  background: #e2e8f0;
   display: inline-block;
   height: 50vh;
   text-align: center;
-  padding: 50px;
+  padding:  0px;
   text-decoration: underline;
   font-size: 36px;
   color: #f1f1f1;
   font-weight: 700;
 }
 .footer {
-  height: 100%;
   background: #666;
   width: 100%;
   box-sizing: border-box;
   text-align: left;
   font-size: 16px;
   font-weight: 500;
-  padding: 55px 50px;
+  padding: 10rem 50px 20rem 50px;
 }
 .footer .footer-left {
   width: 25%;
@@ -549,17 +548,14 @@ img {
   line-height: 2.5rem;
   color: #e2e8f0;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.1s;
   margin-right: 3px;
   margin-bottom: 5px;
 }
 .footer .footer-social a:hover {
-  background: #33383b;
-  border-radius: 20px;
-  font-size: 20px;
-  line-height: 2.5rem;
+
   color: #ff66c4;
-  text-align: center;
+
 }
 @media (max-width: 880px) {
   .footer {
