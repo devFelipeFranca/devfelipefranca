@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Felipe França - PORTIFÓLIO</title>
+        <title>Felipe França - GALERIA</title>
         <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
@@ -17,23 +17,24 @@
                     <ul id="nav"class="nav">
                         <li><a href="#home">Inicio</a></li>
                         <li><a href="#projetos">Projetos</a></li>
-                        <!-- <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#contato">Contado</a></li> -->
+                         <li><a id="about" href="#sobre">Sobre</a></li>
+                        <!--<li><a href="#contato">Contado</a></li> -->
                     </ul>
                 </nav>
             </div>
             <div id="menu-bg" class="menu-bg"></div>
-            <h1>PORTIFÓLIO</h1>
+            <h1>GALERIA</h1>
+            <cite class="citation">"O código que é escrito por um programador é o reflexo de seus pensamentos."</cite>
         </header>
         <main  class="content">
                 <h1 id="projetos"  class=''>PROJETOS</h1>
-                <article >
+                <article class="article-post" >
                     <div class="post">
                         <div class="img-post">
                             <img src="./img/snakeGame.png" alt="SnakeGame">
                         </div>
                         <div class="post-info">
-                            <div class="date">
+                            <div class="data">
                                 <span>Quinta-Feira</span>
                                 <span>05 / Nov / 2020</span>
                             </div>
@@ -45,7 +46,27 @@
                         </div>
                     </div>
                 </article>
-            
+                <article id="sobre"class="sobre">
+                    <section class="card">
+                        <div class="image-data">
+                            <div class="background-image"></div>
+                            <div class="publication-details">
+                                <a href="#" class="author"><i class="fas fa-user"></i>Felipe França</a>
+                                <span class="date"><i class="fas fa-calendar-alt"></i>08 / Nov / 1999</span>
+                            </div>
+                        </div>
+                        <div class="post-date">
+                            <h3 class="title-sobre">Desenvolvedor Web</h3>
+                            <h4 class="subtitle-sobre"> HTML - CSS - JavaScript</h4>
+                            <p class="description" >Dia <mark class="mark-port">28/set/2020</mark> fui 
+                                aprovado no processo seletivo da <a href="https://betrybe.com" target="_blank" class="trybe-buttom">TRYBE</a>, onde estou cursando para me tornar um desenvolvedor web fullstack e com tudo isso
+                                me tornar <strong><em>"uma pessoa em sua melhor versão."</em></strong></p>
+                                <div class="cte">
+                                    <a href="#">Saiba mais &darr;</a>
+                                </div>
+                        </div>
+                    </section>
+                </article>
         </main>  
        <script src="./script/index.js">
        </script>

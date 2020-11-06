@@ -1,6 +1,7 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 *{
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
+    padding:0;
 }
 body{
     font-family: 'PT Sans', sans-serif;
@@ -22,6 +23,12 @@ header h1{
     padding-top: 250px;
     color: #e2e8f0;
     font-size: 100px;
+}
+.citation{
+    align-items: left;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
 }
 #menu{
     width: 35px;
@@ -100,8 +107,8 @@ header h1{
 .change{
     display:block;
 }
-article{
-
+.article-post{
+    padding: 0 0 20px;
     align-items: center;
     justify-content: center ;
     background-color: #eee;
@@ -125,7 +132,7 @@ img{
 }
 .post{
     height: 380px;
-    width: 90%;
+    width: 100%;
     max-width:50rem;
     padding: 0;
     background-color: #fff;
@@ -165,7 +172,7 @@ img{
     background: linear-gradient(to right,rgba(231, 33, 231, 0.842),rgba(126, 126, 126, 0.082));
     box-shadow: .5rem .5rem .3rem 1px rgba(255, 0, 255, 0.212);
 }
-.date span{
+.data span{
     display: block;
     color:#302e2e;
     font-size: 1rem;
@@ -195,4 +202,192 @@ img{
     color:#eee;
     background: linear-gradient(to right,rgba(231, 33, 231, 0.842),rgba(255, 1, 200, 0.39));
     border-radius: .8rem;
+}
+.sobre{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: .8rem ;
+    font-family: 'Open sans', sans-serif;
+    color: #302e2e;
+    background-color: #e2e8f0;
+    height: 380px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0 1.5rem;
+
+}
+:root{
+    --gradient-color:  linear-gradient(to top,rgba(231, 33, 142, 0.801),rgba(230, 143, 221, 0.575))
+}
+.sobre a{
+    text-decoration: none;
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 2px .8rem 1rem rgba(0,0,0,.2);
+}
+.image-data{
+    height: 15rem;
+    position:relative;
+    z-index:1;
+    overflow: hidden;
+}
+.background-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: url('../img/sobre-min.jpg') center no-repeat;
+    background-size: cover;
+    z-index:-1;
+    transition: transform 5s
+}
+.card:hover .background-image{
+    transform: scale(1.5);
+}
+.publication-details{
+    width:100%;
+    height:100%;
+    background:var(--gradient-color);
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight:bold;
+    position: absolute;
+    padding: 1rem;
+
+}
+.publication-details i{
+    margin-right:1rem;
+}
+.author{
+    display: inline-block;
+    margin-bottom: 1rem;
+    transition:all 0.5s 0.3s;
+}
+.author:hover{
+    color:rgba(255,255,255,.90);
+}
+.date{
+    display: block;
+}
+.post-date{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    position:relative;
+}
+.title-sobre{
+    font-size: 2rem;
+    line-height: 1;
+}
+.subtitle-sobre{
+    font-size:.8rem;
+    text-transform: uppercase;
+    font-weight:700;
+    color:#a2a2a2;
+    margin: .6rem 0 .8rem 0;
+}
+.description{
+    font-size: .8rem;
+    position: relative;
+}
+.description::first-letter{
+    margin-left: .6rem;
+}
+.description::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: .3rem;
+    height: 1rem;
+    background:var(--gradient-color);
+    border-radius: 1rem;
+}
+.cte{
+
+    text-align: right;
+    font-weight:bold;
+    margin-top: 1rem;
+}
+.cte a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+}
+.cte a::before{
+    content:'';
+    position: absolute;
+    bottom:-.5rem;
+    left:0;
+    width: 100%;
+    height: 3px;
+    background:var(--gradient-color);
+    transform: scaleX(0);
+    transition: 0.3s ease;
+}
+.cte a:hover::before{
+    transform: scaleX(1);
+}
+@media screen and (min-width:600px){
+
+    .card{
+        flex-direction: row;
+        max-width: 37rem;
+    }
+    .image-data{
+        flex-basis: 40%;
+        height:unset;
+    }
+    .publication-details{
+        transform: translateX(-100%);
+        transition:transform .5s;
+    }
+    .card:hover .publication-details{
+        transform: translateX(0);
+    }
+    .author{
+        transform: translateY(-1.5rem);
+        opacity:0;
+    }
+    .date{
+        transform:translateY(1.5rem);
+        opacity:0;
+        transition: all 0.5s 0.3s;
+    }
+    .card:hover .author,
+    .card:hover .date{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .post-date{
+        flex-basis: 60%;
+    }
+    .post-date::before{
+        content: '';
+        width:1.75rem;
+        height:100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left:-.75rem;
+        z-index: 10;
+        transform: skewX(-5deg);
+    }
+
+}
+.none{
+    display: none;
 }
