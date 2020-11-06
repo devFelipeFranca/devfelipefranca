@@ -6,7 +6,7 @@ window.onload = () => {
     const section = document.querySelector(id).offsetTop;
 
     window.scroll({
-      top: section,
+      top: section -100,
       behavior: "smooth",
     });
   };
