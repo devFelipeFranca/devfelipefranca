@@ -32,6 +32,4 @@ window.onload = () => {
       menuBg.classList.toggle("change-bg");
     });
   }
-  
-
 };
