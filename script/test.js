@@ -7,11 +7,11 @@
 //     this.op = {
 //         add: function (value) {
 //             _value += value
-//             return that
-//         },
-//         sub: function (value) {
-//             _value -= value
-//             return that
+        //     return that
+        // },
+        // sub: function (value) {
+        //     _value -= value
+        //     return that
 //         }
 //     }
 //     // this.add = function (value) {
