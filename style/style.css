@@ -9,7 +9,7 @@ body {
 }
 
 .container.menu-active nav#slide-menu {
-  left: 0px;
+  left: 0.2px;
 }
 
 .container.menu-active nav#slide-menu ul {
