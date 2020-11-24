@@ -8,6 +8,21 @@ body {
   font: 18px/27px 'Helvetic', sans-serif;
 }
 
+.btn {
+  border: 1px solid #ff66c4;
+  border-radius: 50px;
+  color: #ff66c4;
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ff66c4;
+  color: #fff;
+  font-weight: 500;
+}
+
 .container.menu-active nav#slide-menu {
   left: 0.2px;
 }
@@ -120,7 +135,6 @@ nav#slide-menu > ul li.sep {
 div#content {
   align-items: flex-start;
   flex-wrap: wrap;
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -140,7 +154,6 @@ div#content {
   transition: all 300ms;
 }
 div#content div.menu-trigger {
-  /* position: fixed; */
   top: 10px;
   left: 10px;
   width: 36px;
