@@ -1,12 +1,31 @@
-body {}
+body {
+    padding: 6%;
+}
 
 .content {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
 .box {
     border-radius: 5px;
+}
+
+.content-logo {
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-image: url(http://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    background-position: 0% 37%;
+    color: #262626;
+    display: block;
+    height: 52px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    width: 180px;
 }
