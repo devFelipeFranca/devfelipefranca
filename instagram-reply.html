@@ -3,63 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="preload" href="http://www.instagram.com/static/bundles/es6/ConsumerUICommons.css/c71018ea1251.css" as="style" type="text/css" crossorigin="anonymous"> -->
-    <!-- <link rel="preload" href="http://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.css/0608bd6190e0.css" as="style" type="text/css" crossorigin="anonymous"> -->
-    <!-- <link rel="preload" href="http://www.instagram.com/static/bundles/es6/Consumer.css/6c761c8cd379.css" as="style" type="text/css" crossorigin="anonymous"> -->
-    <!-- <link rel="preload" href="http://www.instagram.com/static/bundles/es6/LandingPage.css/344096cb1b73.css" as="style" type="text/css" crossorigin="anonymous"> -->
-    <!-- <link rel="prefetch" as="stylesheet" href="http://www.instagram.com/static/bundles/es6/FeedPageContainer.css/1b39124c7396.css" type="text/css" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./style/bulma/bulma.min.css">
     <link rel="stylesheet" href="./style/instagram-reply.css">
     <title>Instagram</title>
   </head>
   <body>
     <main class="content">
-      <div class="box">
-        <div class="">
+      <div class="container-left">
+        <div class="bg-iphone">
            <figure><img
-            class=""
+            class="item-img"
             src="http://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg"
-            alt=""
-          /></figure>
-          <!-- <img
-            class=""
-            src="http://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg"
-            alt=""
-          /><img
-            class=""
-            src="http://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg"
-            alt=""
-          /><img
-            class=""
-            src="http://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg"
-            alt=""
-          /><img
-            class=""
-            src="http://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg"
-            alt=""
-          /> -->
+            alt=""/>
+          </figure>
         </div>
       </div>
       <div>
+      <div class="container-right">
         <div class="box">
-            <form action="">
+            <form action="box">
                 <div class="content-logo"><h1 class="logo">Instagram</h1></div>
                 <div class="content-login">
                 <input class="input" type="text" name="" id="" placeholder="Telefone, nome de usuário ou email">
                 <input class="input" type="password" name="" id="" placeholder="Senha">
                 <button class="button btn">Entrar</button>
-                <div class="hr-row"><hr><h5>OU</h5><hr></div>
-                <p><label for="login-facebook"><i></i></label><a href="#">Entrar com Facebook</a></p>
-                <p><a href="#">Esqueceu a senha?</a></p>
+                <div class="hr-row"><div class="line"></div><p>OU</p><div class="line"></div></div>
+                <div class="content"><label for="login-facebook"><a id="login-facebook" class="link-1" href="#">Entrar com Facebook</a></div>
+                <p><a class="link-2" href="#">Esqueceu a senha?</a></p>
                 </div>
             </form>
         </div>
-        <div class="box">
-            <p>Não tem conta?<a href="#">Cadastre-se</a></p>
+        <div class="box text-area">
+            <p>Não tem uma conta?<a class="link-3" href="#"> Cadastre-se</a></p>
         </div>
-        <p>Obtenha o aplicativo.</p>
-        <a href="#"><img alt="Disponível na App Store" class="Rt8TI " src="http://www.instagram.com/static/images/appstore-install-badges/badge_ios_portuguese-brazilian-pt_br.png/68006a2bb372.png"></a>
-        <a href="#"><img alt="Disponível no Google Play" class="Rt8TI " src="http://www.instagram.com/static/images/appstore-install-badges/badge_android_portuguese_brazilian-pt_BR.png/2f2a0c05b2f3.png"></a>
+        <p class="text-area-2">Obtenha o aplicativo.</p>
+      <div class="down-mobile">
+        <a href="#"><img alt="Disponível na App Store" class="mobile" src="http://www.instagram.com/static/images/appstore-install-badges/badge_ios_portuguese-brazilian-pt_br.png/68006a2bb372.png"></a>
+        <a href="#"><img alt="Disponível no Google Play" class="mobile" src="http://www.instagram.com/static/images/appstore-install-badges/badge_android_portuguese_brazilian-pt_BR.png/2f2a0c05b2f3.png"></a>
+      </div>
+      </div>
         </div>
       </main>
   </body>
