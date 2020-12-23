@@ -6,6 +6,9 @@
     border:none;
     display: none;
 }
+.navbar {
+    background-color: #faeef5;
+}
 .hero-name {
     color: black;
     font-family: 'crimson text';
@@ -20,7 +23,7 @@
 }
 .inline a {
     color: #000000;
-    margin: 1.5rem
+    margin: .5rem 1.5rem -1rem; 
 }
 .btn {
     border: 1px solid #ff66c4;
