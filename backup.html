@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" class="has-navbar-fixed-top">
+<head>
+ <meta charset="utf-8" />
+ <title>Felipe França - GALLERY</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="./style/bulma/bulma.min.css">
+ <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body>
+ <header id="home">
+  <div class="container center">
+   <nav id="slide-menu">
+    <aside class="menu">
+     <p class="menu-label">Geral</p>
+      <ul class="menu-list">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#projetos">Scripts - Úteis</a></li>
+        <li><a href="#snake-game">Jogos em JavaScript</a></li>
+        <li><a href="#page-reply">Réplica de Sites Famosos</a></li>
+        <li><a href="#projetos">Projetos By Trybe</a></li>
+      </ul>
+       <p class="menu-label">Redes Sociais</p>
+        <ul class="menu-list">
+         <li><a href="https://github.com/devFelipeFranca" target="_blank">GitHub</a></li>
+         <li><a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </aside>
+   </nav>
+  </div>  
+  <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+   <div class="navbar-brand">  
+    <div class="menu-trigger" data-anijs="if: click, do: $toggleClass menu-active, to: .container">
+     <a id='menu'role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+     </a> 
+    </div>    
+     <a class="navbar-item p-20x" href="#projetos">
+       <h1 class="hero p-20x"><strong>My <u>GALLERY</u></strong></h1>
+     </a>        
+    <div id="navbarBasicExample" class="navbar-menu">
+     <div class="navbar-start">
+      <a href="#home" class="navbar-item">Inicio</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+       <a class="navbar-link">Mais</a>
+       <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://github.com/devFelipeFranca" target="_blank">Repositórios - GitHub</a>
+          <a class="navbar-item" href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/" target="_blank">LinkedIn</a>
+          <hr class="navbar-divider">
+          <a href="#rodape" class="navbar-item">Veja mais.</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </nav>
+ </header>   
+<main class="content">
+ <div class="tile is-parent is-vertical">
+  <article class="tile is-child box"> 
+   <div class="card-content">
+    <div class="media">
+     <div class="media-left">
+       <figure><img class="img-perfil" src="./style/img/sobre-min.jpg" alt="Placeholder image"></figure>
+        <span class="content">
+         <p class="title is-4">Felipe França</p>
+         <p class="subtitle is-6">@lip_fran.</p>
+        </span>
+     </div><hr class="navbar-divider">
+    </div>
+    <div class="content">
+     <p class="footer-company-about">
+      <hr class="navbar-divider">
+      <span class="title is-5">Um pouco da minha história</span><br>
+       <em class="subtitle is-6">
+        "Olá, chamo-me Felipe, mesmo tendo dado início aos estudos tarde para a minha idade, aos 7 anos estava na quarta série, aos 9 comecei a estudar música, aos 12 participei de cursos de informática na ClickAki seguido de um curso de M.M.M.C(Montagem e Manutenção de Microcomputadores). Aos 14 após concluir, um ano depois concluo o ensino fundamental, devido às fases da vida não concluí o ensino médio numa escola, e passei 2 anos sem frequentar uma sala de aula, seguindo os meus estudos até hoje, de forma autodidata, e trabalhando como cabeleireiro, professor de música entre outras coisas que desenvolvi cedo, concluí o ensino médio exercendo a prova do ENCCEJA, estudei redes de computadores e como elas funcionam, circuitos de eletrónicos, trabalhei como T.I de redes conseguindo as certificações 'MTCNE, MTCRE e MTCINE', em 2020 com a pandemia tive que me afastar, nesta mesma época surgiu para mim a chance de fazer uma prova na Trybe pela modalidade de sucesso compartilhado, a escolha que pode mudar a minha vida… E a história continua daqui.”
+       </em>
+     </p><br>
+     <time datetime="2016-1-1">Segunda-Feira <br><br> 28 / Set / 2020</time>
+    </div>
+   </div>
+  </article>
+ </div>
+ <div class="tile is-parent is-vertical">
+  <article class="tile is-child box">
+   <div class="media-content">
+    <p id='snake-game' class="title is-4">SnakeGame</p>
+    <p class="subtitle is-6">Sexta-Feira <br> 20 / Out / 2020</p>
+   </div>
+   <div class="content">
+    <p class="footer-company-about is-left">
+     <span class="title is-5">O Famoso Jogo da Cobrinha, agora multiplayer para jogar com seus amigos.</span><br>
+    </p><br><div class="has-text-centered"><a class="btn" target="_blank" href="./SnakeGame.html">Teste Agora</a></div><hr>
+   </div>
+  </article>
+ </div>
+ <div class="tile is-parent is-vertical">
+  <article class="tile is-child box">
+   <div class="media-content">
+    <p id='snake-game' class="title is-4">Facebook - Reply</p>
+    <p class="subtitle is-6">Terça - Feira <br> 24 / Nov / 2020</p>
+   </div>
+   <div class="content" id="page-reply">
+    <p class="footer-company-about is-left">
+     <span class="title is-5">Réplica da tela de login do facebook. <br> Tecnologias: HTML5 CSS3 e a Biblioteca CSS Bulma.</span><br>
+    </p><br><div class="has-text-centered"><a class="btn" target="_blank" href="./facebook-reply.html">Acessar</a></div><hr>
+   </div>
+    <div class="media-content">
+     <p id='snake-game' class="title is-4">Instagram - Reply</p>
+     <p class="subtitle is-6">Quinta - Feira <br> 26 / Nov / 2020</p>
+    </div>
+    <div class="content" id="page-reply">
+     <p class="footer-company-about is-left">
+      <span class="title is-5">Réplica da tela de login do Instagram. <br> Tecnologias: HTML5 CSS3 e a Biblioteca CSS Bulma.</span><br>
+     </p><br><div class="has-text-centered"><a class="btn" target="_blank" href="./instagram-reply.html">Acessar</a></div><hr>
+    </div>
+   </article>
+ </div>
+</main>
+<footer id="rodape"class="footer">
+ <div class="content has-text-centered">
+  <p>
+   <strong>Desenvolvido</strong> by <a href="#home">Felipe França</a>.
+  </p>
+  <div class="footer-social">
+   <a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-2102091b7/"target="_blank"><i class="fa fa-linkedin"></i></a>
+   <a href="https://github.com/devFelipeFranca" target="_blank"><i class="fa fa-github"></i></a>
+  </div>
+ </div>
+</footer>
+<script src="./script/index.js"></script>
+<script src="https://anijs.github.io/lib/anijs/anijs.js"></script>
+<script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom.js"></script>
+</body>
+</html>
