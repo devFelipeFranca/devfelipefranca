@@ -1,0 +1,46 @@
+@import './bulma.min.css';
+.mg{
+    margin: 50% 0 50%;
+}
+.header-desktop {
+    border:none;
+    display: none;
+}
+.hero-name {
+    color: black;
+    font-family: 'crimson text';
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inline a {
+    color: #000000;
+    margin: 1.5rem
+}
+.btn {
+    border: 1px solid #ff66c4;
+    border-radius: 50px;
+    color: #ff66c4;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #ff66c4;
+    color: #fff;
+    font-weight: 500;
+  }
+  .btn-nav {
+    color: black;
+  }
+
+  .post {
+      display: flex;
+      flex-direction: column-reverse;
+  }
