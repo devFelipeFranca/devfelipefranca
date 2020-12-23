@@ -17,5 +17,5 @@
 
 // }
  setTimeout(() => {
-  window.location.href = '../homePage.html'
+  window.location.href = 'devfelipefranca.github.io/devfelipefranca/homePage.html'
  },3000)
