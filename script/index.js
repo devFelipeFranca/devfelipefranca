@@ -17,5 +17,5 @@
 
 // }
  setTimeout(() => {
-  window.location.href = '../pages/homePage/index.html'
+  window.location.href = '../homePage.html'
  },3000)
