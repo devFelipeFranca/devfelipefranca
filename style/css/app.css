@@ -48,3 +48,12 @@
       display: flex;
       flex-direction: column-reverse;
   }
+
+  .script {
+      color: black;
+      font-family: serif;
+      font-size: 10px;
+      margin: 0;
+      padding: 0; 
+      text-align: left;
+  }
