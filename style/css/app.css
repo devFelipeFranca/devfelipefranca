@@ -29,9 +29,13 @@
     border: 1px solid #ff66c4;
     border-radius: 50px;
     color: #ff66c4;
+    max-width: 5rem;
     padding: 10px 20px;
     text-align: center;
     transition: 0.5s;
+  }
+  .button {
+      border-radius: 2rem;
   }
   
   .btn:hover {
@@ -56,4 +60,7 @@
       margin: 0;
       padding: 0; 
       text-align: left;
+  }
+  .input {
+      margin-bottom: 2rem;
   }
