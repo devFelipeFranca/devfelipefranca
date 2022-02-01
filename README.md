@@ -1,6 +1,6 @@
 ### Olá! Eu sou Felipe França, Web Developer.
 
-- 🔭 Hoje trabalho como Desenvolvedor web fullstack (React, Next, Nodejs, NestJs)
+- 🔭 Hoje trabalho como Desenvolvedor web front end na Ioasys
 - 🌱 Estudando React Native
 - 😄 Pronouns: ele/dele
 
