@@ -1,7 +1,7 @@
 ### Olá! Eu sou Felipe França, Web Developer.
 
-- 🔭 Desenvolvedor Web FullStack
-- 🌱 Estudando alguns paradigmas funcionais e design patterns.
+- 🔭 Desenvolvedor Web FullStack Senior
+- 🌱 Ajudando a construir um mundo melhor com tecnologia.
 - 😄 Pronouns: ele/dele
 
 
